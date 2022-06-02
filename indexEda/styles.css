@@ -118,3 +118,51 @@ margin-bottom: 32px;
     color: #FFFFFF;
     padding: 13px 53px;
 }
+.bonus{
+    max-width: 1190px;
+    margin: 50px auto;
+    display: flex;
+    gap: 54px;
+    color: #FFFFFF;
+
+    
+}
+.bonus-item {
+    flex-basis: 50%;
+    padding: 36px 32px 31px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bonus-bg1 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url(images/bonus-bg1.png);
+    
+}
+.bonus-bg2 {
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bonus-bg2.png)
+}
+.bonus h3{
+
+}
+.bonus p {
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+color: #FFF;
+width: 225px;
+margin-bottom: 0;
+margin-top: 0px;
+
+}
+.bonus .price span{
+font-size: 30px;
+}
+.bonus-btn{
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #5F5F61;
+    padding: 13px 52px;
+    margin-top: 25px;
+}
