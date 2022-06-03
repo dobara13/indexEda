@@ -10,7 +10,7 @@ button{
     cursor: pointer;
 }
 header {
-max-width: 1190px;
+max-width: 1196px;
 margin: 0 auto;
 display: flex;
 justify-content: space-between;
@@ -77,7 +77,7 @@ border: none;
     gap: 31px;
 }
 .slider {
-    max-width: 1190px;
+    max-width: 1196px;
     margin: 0 auto;
 }
 .slider-item h1 {
@@ -119,7 +119,7 @@ margin-bottom: 32px;
     padding: 13px 53px;
 }
 .bonus{
-    max-width: 1190px;
+    max-width: 1196px;
     margin: 50px auto;
     display: flex;
     gap: 54px;
@@ -165,4 +165,72 @@ font-size: 30px;
     color: #5F5F61;
     padding: 13px 52px;
     margin-top: 25px;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    background: url(images/arrow_left.png) no-repeat 50% 50% rgba(235, 235, 235, 0.7);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-next {
+    background: url(images/arrow_right.png) no-repeat 50% 50% rgba(235, 235, 235, 0.7);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-left: 17px;
+}
+.owl-nav span{
+    display: none;
+}
+.owl-nav{
+    position: absolute;
+    right: 46px;
+    bottom: 39px;
+}
+.delivery{
+    max-width: 1196px;
+    margin: 110px auto 0;
+}
+.delivery h2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 47px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.gallery figure {
+    border-radius: 18px;
+    position: relative;
+    margin: 0;
+}
+.gallery img {
+    border-radius: 18px;
+}
+.gallery figcaption {
+position: absolute;
+top: 16px;
+left: 10px;
+border-radius: 30px;
+}
+.light-green {
+    background: #D0FD89;
+}
+.catalog {
+    width: 100%;
+    background: #F6F6F6;;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 172px;
+}
+.categories {
+    max-width: 1196px;
+    margin: 0 auto;
+}
+.categories h2 {
+    font-weight: 500;
+    font-size: 32px;
+
 }
