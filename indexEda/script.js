@@ -7,4 +7,5 @@ $('.owl-carousel').owlCarousel({
     autoplay: true,
     smartSpeed: 500
 });
+$('#tabset').tabs();
 });
