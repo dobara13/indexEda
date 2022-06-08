@@ -50,10 +50,15 @@ border: none;
     position:relative;
     width: 620px;
 }
+.search-mobile {
+    position: relative;
+    width: 620px;
+}
 .enter {
     background: #EBEBEB;
     border-radius: 50px;
     width: 99px;
+    height: 49px;
     font-size: 14px;
     padding: 16px 29px;
     border: none;
@@ -314,6 +319,8 @@ border: none;
 .benefits {
     max-width: 1191px;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 202px;
 }
 .benefits-item svg {
     fill:#F37321;
@@ -354,5 +361,42 @@ line-height: 23px;
 .benefits-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+}
+footer {
+    background: #F6F6F6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-content {
+    max-width: 1191px;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
+}
+.footer-info {
+    display: flex;
+    gap: 50px;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    align-self: center;
+}
+footer a {
+    color: #000000;
+    text-decoration: underline;
+}
+.social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-info img {
+    width: 101px;
+    height: 101px;
 }
